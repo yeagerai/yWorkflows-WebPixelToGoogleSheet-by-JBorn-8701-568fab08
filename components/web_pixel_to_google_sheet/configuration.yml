@@ -3,5 +3,7 @@ description: This component takes input as VisitorContactInfo, which is a Pydant
   the contact information to a specified Google Sheets spreadsheet. The output of
   this component is a ContactAppendResult, which is also a Pydantic model containing
   the status of appending the contact to the spreadsheet.
+input-class: VisitorContactInfo
 name: WebPixelToGoogleSheet
+output-class: ContactAppendResult
 parameters: {}
